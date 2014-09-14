@@ -7,17 +7,17 @@
 
 
 // object is copied by reference
-var stooge = {
+var user = {
     firstName : 'Sohel',
     lastName : 'Rana'
 };
 
 
-var x = stooge;
+var x = user;
 x.nickname = "SR";
 
 console.log(x);
-console.log(stooge);
+console.log(user);
 
 
 //another example
