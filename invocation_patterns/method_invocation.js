@@ -5,11 +5,16 @@
  * Time: 6:17 PM
  */
 
+/**
+ * function is a property of the object, so it is called as method
+ * so a method invoked under an object is called method invocation pattern
+ * @type {{salary: number, increment: increment, addNewProperty: addNewProperty}}
+ */
 
 var myObject = {
     salary : 3000,
     increment : function(inc){
-        //here this refers to the object that
+        //here this refers to the object
         //so this method can access the object's property and modify them
         this.salary += typeof inc === "number"? inc : 1;
     },
