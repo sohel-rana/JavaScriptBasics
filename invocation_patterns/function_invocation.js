@@ -52,7 +52,7 @@ var myObject = {
 myObject.doubleMySalary = function(){
 
     var that = this; // this = myObject
-    console.log(this.salary); // salary is available
+    console.log(this,this.salary); // salary is available
 
     var helper = function(){
         // console.log(this); // this = Window !!!
@@ -64,6 +64,9 @@ myObject.doubleMySalary = function(){
         //double again, I have got 4 times increment :D
         that.salary = add(this.myObject.salary, this.myObject.salary);
         // ^^ here this is refers to window(global scope). myObject is in global scope as well. So we can use this.myObject.salary to access the salary
+
+        //interesting fact
+        this.helloWorld = "Define this in global scope";
     };
 
     helper();
@@ -72,3 +75,5 @@ myObject.doubleMySalary = function(){
 myObject.doubleMySalary();
 
 console.log(myObject.salary);
+
+console.log(helloWorld);
