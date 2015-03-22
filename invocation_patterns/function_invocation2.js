@@ -6,7 +6,9 @@
  */
 
 /**
- * function invocation pattern is when function is called as individual. That means if it is not a part of an object, then it remains in global scope. It is independent function and part of the global
+ * function invocation pattern is when function is called as individual.
+ * That means if it is not a part of an object, then it remains in global scope.
+ * It is independent function and part of the global
  */
 
 
