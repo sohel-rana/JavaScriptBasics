@@ -1,0 +1,19 @@
+{
+  "name": "JavaScriptBasics",
+  "version": "0.0.1",
+  "description": "A practice ground for \"JavaScript: The Good Parts\" book readers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sohel-rana/JavaScriptBasics.git"
+  },
+  "keywords": [
+    "javascript",
+    "good parts"
+  ],
+  "author": "Sohel Rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sohel-rana/JavaScriptBasics/issues"
+  },
+  "homepage": "https://github.com/sohel-rana/JavaScriptBasics"
+}
