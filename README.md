@@ -9,7 +9,7 @@ The examples shown in the book are implemented as a complete and independently r
 You can run the examples in several ways. But I would recommend to use browser's console.
 Just open a file and copy the content in the browser's console. Then modify and check the output. 
 
-Also you can use node for running the examples. Simply run "node <filename.js>"
+Also you can use node for running the examples. Simply run <b>node &lt;filename.js&gt;</b>
 
 
 Happy Coding :)
